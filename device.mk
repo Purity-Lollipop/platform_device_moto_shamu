@@ -114,7 +114,8 @@ PRODUCT_AAPT_PREF_CONFIG := 560dpi
 PRODUCT_CHARACTERISTICS := nosdcard
 
 DEVICE_PACKAGE_OVERLAYS := \
-    device/motorola/shamu/overlay
+    device/motorola/shamu/overlay \
+    device/motorola/shamu/overlay-cm
 
 PRODUCT_PACKAGES := \
     libwpa_client \
