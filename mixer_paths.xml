@@ -975,8 +975,6 @@
 
 	<path name="voice-tty-hco-handset">
 		<ctl name="TTY Mode" value="HCO" />
-	    <!-- Port mixer is common bit for all voice verbs -->
-		<ctl name="QUAT_MI2S_RX Port Mixer SLIM_1_TX" value="1" />
 		<path name="voice-handset" />
 	</path>
 
